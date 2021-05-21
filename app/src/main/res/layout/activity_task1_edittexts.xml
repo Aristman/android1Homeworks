@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="text"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="date"
+        android:importantForAutofill="no"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pin Code"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="text name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phonetic"
+        android:importantForAutofill="no"
+        android:inputType="textPhonetic" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="auto correct"
+        android:importantForAutofill="no"
+        android:inputType="textAutoCorrect" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--ems - параметр, который задает ширину поля TextView и его нвследников в
+    своеобразных типографских единицах. Данный параметр важен для верстки страниц
+    при применении различных шрифтом. За единицу измерения принимается ширина
+    буквы M в латинском алфавите. Ширина поля будет ограничиватьс параметром ems
+    только в случае установки параметра layout_height в wrap_content-->
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_gray"
+        android:gravity="center_horizontal"
+        android:textColor="@color/red"
+        tools:text="какой-то текст0" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="monospace"
+        android:hint="@string/enter_text"
+        android:importantForAutofill="no"
+        android:maxEms="5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="32dp"
+        android:text="@string/button_test_text"
+        android:textSize="28sp"
+        app:backgroundTint="@color/black" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/pink"
+        android:checked="true"
+        android:gravity="center"
+        android:text="@string/choice_text"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:text="@string/sample_text1"
+        android:textColor="@color/green" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:checked="true"
+        android:text="@string/choice_text"
+        android:textColor="@color/red" />
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:checked="false" />
+
+</LinearLayout>
